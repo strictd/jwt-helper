@@ -1,0 +1,27 @@
+{
+  "name": "@strictd/jwt-helper",
+  "version": "0.0.1",
+  "description": "Fork from angular2-jwt with base64 exports",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint --force --config tslint.json --exclude \"node_modules/**/*\" \"src/**/*.ts\"",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strictd/jwt-helper.git"
+  },
+  "dependencies": {
+    "@strictd/js-base64": "^2.1.10"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.0",
+    "@types/node": "^6.0.38",
+    "core-js": "^2.4.0",
+    "codelyzer": "0.0.28",
+    "tslint": "^3.3.0",
+    "tslint-stylish": "^2.1.0-beta",
+    "typescript": "^2.0.2",
+    "zone.js": "^0.6.21"
+  }  
+}
